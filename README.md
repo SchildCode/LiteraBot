@@ -6,13 +6,13 @@ It is a tool to aid literature reviews involving text searches in multiple docum
 Homepage: https://github.com/SchildCode/LiteraBot
 Author: Peter.Schild@OsloMet.no, first release May 2017
 
-Installation:
+### Installation:
 - Unzip the LiteraBot ZIP file and put all the files in your working directory. That's it. No installation needed.
 Note that the files "pdftotext.exe" and "pdfinfo.exe" that are bundled with LiteraBot should be put in the same directory as the workbook file.
 "pdftotext.exe" and "pdfinfo.exe" are 32-bit and 64-bit Windows binaries that can be downloaded from http://www.xpdfreader.com/
 - At first use, LiteraBot might ask you to change a setting in Edge (or Internet Explorer) to give LiteraBot access to DOI-lookup webservices.
 
-How to use:
+### How to use:
 - Collect all your PDF files for a specific literature review in a project dicrectory. The files can stored in multiple subdirecories if you wish. It can be hundreds of files.
 - LiteraBot can read only PDF and TXT files. Documents that are not PDF files (e.g. Word etc) should be exported as TXT files.
 - LiteraBot uses Regular Expressions (RegEx) for text search. The user does not need to undertands the syntax of RegEx, but it helps a lot if the user wants to build complex searches.
@@ -25,6 +25,6 @@ How to use:
 - For tips about RegEx search commands, click on the 'SEARCH STRINGS' hyperlink in sheet 'Analyse'.
 - For tips about the BibTeX format, see the Wikipedia page about BibTeX. BibTeX files can be imported to many other programs, including JabRef.
 
-Licence:
+### Licence:
 - The LiteraBot workbook and source code are licensed under Creative Commons lisence CC BY-NC-SA (Attribution-NonCommercial-ShareAlike). This license lets others remix, tweak, and build upon your work non-commercially, as long as they credit you and license their new creations under the identical terms.
 - The stand-alone executables "pdftotext.exe" and "pdfinfo.exe" are both copyright 1996-2017 Glyph & Cog, LLC. They are redistributed free and licensed under GPL v2 and GPL v3. (http://www.xpdfreader.com/). To comply with the GPL, you must redistribute the Xpdf documentation along with the executables. For this reason, files "Xpdf_README.txt" and "Xpdf_3.txt" are bundled together with LiteraBot.
