@@ -1,6 +1,7 @@
 # LiteraBot
-A tool to aid literature reviews involving text searches in multiple documents (PDF and TXT files).
 LiteraBot is a macro-enabled spreadsheet that is compatible with Microsoft Excel 2013+ for Windows.
+It is a tool to aid literature reviews involving text searches in multiple documents (PDF and TXT files). It combines features from JabRef, Mendeley, Zotero, Bookends, and Endnote, giving more powerful text search functions and more intelligent automatic generation of BibTeX references.
+
 
 Homepage: https://github.com/SchildCode/LiteraBot
 Author: Peter.Schild@OsloMet.no, first release May 2017
@@ -19,8 +20,8 @@ How to use:
 - LiteraBot has 3 macros that you activate by pressing CTRL+L, CTRL+A or CTRL+D:
   CTRL+L = List all PDF & TXT files in a directory (and subdirectories)
   CTRL+D = Delete the file listed in the active row (e.g a duplicate or irrelevant file) from the project directory. You should first select the row in sheet 'Analyse'.
-  CTRL+A = Analysis: Conduct the user-defined RegEx text search in all the documents, after you have entered one or more RegEx text search strings in columns G+
-  CTRL+E: Export as a BibTeX bibliography file (*.bib).
+  CTRL+A = Analysis: Conduct the user-defined RegEx text search in all the documents, after you have entered one or more RegEx text search strings in columns G+. This macro tries to automatically generate a BibTex reference for each document based on either doi, or PII in the document (and a DOI lookup web service), or XMP metadata stored in PDF files. If no BibTeX reference is found, a hyperlink is made to arXiv, PubMed (PMID), or Google Scholar (if ISBN number os found, otherwise a title search) so that you can access BibTeX for the document from these sites.
+  CTRL+E: Export as a BibTeX bibliography file (.bib). This can then be used directly in your preferred LaTeX application, or converted to other bibliometric file formats using an application such as JabRef.
 - For tips about RegEx search commands, click on the 'SEARCH STRINGS' hyperlink in sheet 'Analyse'.
 - For tips about the BibTeX format, see the Wikipedia page about BibTeX. BibTeX files can be imported to many other programs, including JabRef.
 
