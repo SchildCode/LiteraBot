@@ -2,8 +2,8 @@
 LiteraBot is a macro-enabled spreadsheet that is compatible with Microsoft Excel 2013+ for Windows.
 It is a tool to aid literature reviews involving text searches in multiple documents (PDF and TXT files). It combines features from JabRef, Mendeley, Zotero, Bookends, and Endnote, giving more powerful text search functions and more intelligent automatic generation of BibTeX references.
 
-
 Homepage: https://github.com/SchildCode/LiteraBot
+
 Author: Peter.Schild@OsloMet.no, first release May 2017
 
 ### Installation:
