@@ -4,7 +4,7 @@ It is a tool to aid literature reviews involving text searches in multiple docum
 
 Homepage: https://github.com/SchildCode/LiteraBot
 
-Author: Peter.Schild@OsloMet.no, first release May 2017
+Author: © Peter.Schild@OsloMet.no, first released May 2017
 
 ### Installation:
 - Unzip the LiteraBot ZIP file and put all the files in your working directory. That's it. No installation needed.
