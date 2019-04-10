@@ -9,8 +9,14 @@ Author: © Peter.Schild@OsloMet.no, first released May 2017
 ### Installation:
 - Unzip the LiteraBot ZIP file and put all the files in your working directory. That's it. No installation needed.
 Note that the files "pdftotext.exe" and "pdfinfo.exe" that are bundled with LiteraBot should be put in the same directory as the workbook file.
-"pdftotext.exe" and "pdfinfo.exe" are 32-bit and 64-bit Windows binaries that can be downloaded from http://www.xpdfreader.com/
+"pdftotext.exe" and "pdfinfo.exe" are 32-bit or 64-bit Windows binaries that can be downloaded from http://www.xpdfreader.com/
+- However, this is a Visual Basic macro-enabled spreadhseet. You must activate macros for it to function: 
+  - When you open the file for the first time in Excel, you will see a yellow bar at the top of the window, with the message *"PROTECTED VIEW Be careful... [Enable Editing]"*. Click on the 'Enable Editing' button. 
+  - Next, depending on the security settings on your installation of Microsoft Excel, a red bar may appear at the top of the window, with the message *"BLOCKED CONTENT Macros in this document have been disabled..."*. This can be solved by moving the file to a directory on your PC that you designate for files that you trust, then open the file in Excel. To designate a 'trusted directory', click on **File > Options > Trust Center > Trust Center Settings > Trusted Locations > Add new location**, then browse to a directory, e.g. C:\TEMP\. Finally check that **Trust Center Settings > Trusted Documents > Disable Trusted Documents**  is not ticked.
+  - When macros are properly activated, **EpXL** shows a small square splash-screen when you open the file. This splash screen shows the licence info, and advises you if an update is available for download from GitHub. Simply press 'Close' button to close the splash-screen. 
+  - If still no splash-screen appears, then you might be able to fix it by menu option **File > Options > Trust Center > Trust Center Settings > Macro Settings > Disable all macros with notification**, which is a suitable level of security.
 - At first use, LiteraBot might ask you to change a setting in Edge (or Internet Explorer) to give LiteraBot access to DOI-lookup webservices.
+- You might need administrator priveleges for LiteraBot to be allowed to execute "pdftotext.exe" and "pdfinfo.exe".
 
 ### How to use:
 - Collect all your PDF files for a specific literature review in a project dicrectory. The files can stored in multiple subdirecories if you wish. It can be hundreds of files.
