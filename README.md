@@ -43,7 +43,7 @@ Note that the files "pdftotext.exe" and "pdfinfo.exe" that are bundled with Lite
 ```bibtex
 @Misc{Schild23,
   author = {Schild, Peter G.},
-  title = {{LiteraBot}: {Software tool to analyse and cite publications}},
+  title = {{LiteraBot}: Software tool to analyse and cite publications},
   howpublished = {\url{https://github.com/SchildCode/LiteraBot/}},
   year = {2023}
 }
