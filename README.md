@@ -1,4 +1,4 @@
-# LiteraBot
+# LiteraBot  [![DOI](https://zenodo.org/badge/144143296.svg)](https://zenodo.org/doi/10.5281/zenodo.10370540)
 LiteraBot enables literature reviews involving full-text search in multiple documents (PDF and TXT files), and automatically generates a BibTeX reference list. It combines features from JabRef, Mendeley, Zotero, Bookends, and Endnote, giving more powerful text search functions and more intelligent automatic generation of BibTeX references.
 LiteraBot is a macro-enabled spreadsheet that is compatible with Microsoft Excel 2013+ for Windows.
 
@@ -43,8 +43,10 @@ Note that the files "pdftotext.exe" and "pdfinfo.exe" that are bundled with Lite
 ```bibtex
 @Misc{Schild23,
   author = {Schild, Peter G.},
-  title = {{LiteraBot}: Software tool to analyse and cite publications},
+  title = {{LiteraBot}: Software tool to analyse and cite full-text publications},
   howpublished = {\url{https://github.com/SchildCode/LiteraBot/}},
+  doi = {10.5281/zenodo.10370540},
+  url = {https://doi.org/10.5281/zenodo.10370540}
   year = {2023}
 }
 ```
