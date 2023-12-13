@@ -37,3 +37,14 @@ Note that the files "pdftotext.exe" and "pdfinfo.exe" that are bundled with Lite
 ### Licence:
 - The LiteraBot workbook and source code are licensed under Creative Commons lisence CC BY-NC-SA (Attribution-NonCommercial-ShareAlike). This license lets others remix, tweak, and build upon your work non-commercially, as long as they credit you and license their new creations under the identical terms.
 - The stand-alone executables "pdftotext.exe" and "pdfinfo.exe" are both copyright 1996-2017 Glyph & Cog, LLC. They are redistributed free and licensed under GPL v2 and GPL v3. (http://www.xpdfreader.com/). To comply with the GPL, you must redistribute the Xpdf documentation along with the executables. For this reason, files "Xpdf_README.txt" and "Xpdf_3.txt" are bundled together with LiteraBot.
+
+### BibTeX for citing LiteraBot
+
+```bibtex
+@Misc{Schild23,
+  author = {Schild, Peter G.},
+  title = {{LiteraBot}: {Software tool to analyse and cite publications}},
+  howpublished = {\url{https://github.com/SchildCode/LiteraBot/}},
+  year = {2023}
+}
+```
